@@ -1,0 +1,70 @@
+/* src/ListaEmpleados.css */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+
+body {
+  font-family: var(--font-family);
+  background-image: url('/public/oficina.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Cubrir todo el fondo */
+  background-position: center; /* Centrar la imagen de fondo */
+  background-repeat: no-repeat; /* Evitar que se repita */
+  color: var(--color-dark);
+  margin: 0; /* Eliminar márgenes por defecto */
+  padding: 0; /* Eliminar relleno por defecto */
+}
+
+.lista-empleados-container .table-light {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi transparente (ajusta el valor de 0.8 según sea necesario) */
+  color: #212529; /* Color oscuro para el texto */
+  border: 1px solid #dee2e6;
+}
+.table-light th,
+.table-light td {
+  border: 1px solid #dee2e6;
+}
+
+.table-light th,
+.table-light td {
+  color: #212529; /* Color oscuro para el texto */
+}
+
+/* Agregar estilo al encabezado de la tabla */
+.table-light thead th {
+  background-color: #343a40; /* Fondo más oscuro para el encabezado */
+  color: #ffffff; /* Texto en color blanco en el encabezado */
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  cursor: pointer;
+  color: #dc3545; /* Agregar cursor pointer para indicar que es clickable */
+}
+
+.bold-link {
+  font-weight: bold;
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.lista-empleados-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
+  height: 100vh;
+  padding-left: 20px; /* Añade un espacio a la izquierda para el botón */
+  padding-right: 20px; /* Añade un espacio a la derecha para el botón */
+}
+
+
+.lista-empleados-container h2 {
+  color: #ffffff; /* Texto en color blanco para el título */
+}
+
+.btn-primary-new {
+  align-self: flex-start; /* Alinea el botón a la izquierda */
+  margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
+}

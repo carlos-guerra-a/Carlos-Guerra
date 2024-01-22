@@ -1,0 +1,39 @@
+.navbar-brand {
+    margin-left: 10px;
+    color: white;
+    border: 1px solid white; 
+    border-radius: 5px; 
+    padding: 0.5rem 1rem; 
+    margin-right: 10px; 
+  }
+
+  /* Navbar.css */
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+  
+.navbar-toggler-icon {
+  background-color: var(--color-white);
+}
+
+.nav-item {
+  margin-right: 10px; 
+}
+
+.nav-link {
+  color: var(--color-white); 
+}
+
+.nav-item-logout {
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+  
+
+
+.navbar {
+  z-index: 1000; 
+}

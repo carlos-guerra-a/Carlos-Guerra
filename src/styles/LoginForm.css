@@ -1,0 +1,21 @@
+.card {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.btn-primary-i,
+.btn-secondary-i {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
